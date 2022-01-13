@@ -1,60 +1,77 @@
+.page {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-  
-  .star-title{
-    /* height: ;
-    width: ; */
-    color:white;
-  
-  }
+#star {
+  margin-left: 9%;
+}
 
-  .login-input{
-height: 30vh;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-border: 1px black solid;
-margin-top: 10vh;
-  }
-  
-  
-  .component{
-    background-color: rgb(39, 142, 211);
-    color:white;
-    height: 90vh;
-    width: 30vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-  
-  }
-  
+.component {
+  background-color: rgb(4, 135, 223);
+  color: white;
+  height: 95vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.form-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border:1px orange solid; */
+}
 
-  .password-email-input{
-    height: 8vh;
-    width: 20vw;
-    border-radius: 25px;
-  }
-    
-  .login-reg-button{
-    height: 8vh;
-    width: 20vw;
-    background-color: rgb(39, 142, 211);
-    color:white;
-    border-radius: 25px;
-  }
-  
-  .logout{
-    height: 8vh;
-    width: 20vw;
-    background-color: rgb(39, 142, 211);
-    color:white;
-    border-radius: 25px;
-  }
+.login-input {
+  height: 32vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 1px black solid; */
+}
 
-  hr{
-    color: white;
-    width: 80%;
-  }
-  
-  
+.password-email-input {
+  height: 8vh;
+  width: 16vw;
+  border-radius: 25px;
+  border: 0px;
+}
+
+.login-reg-button {
+  height: 8vh;
+  width: 16vw;
+  background-color: rgb(39, 142, 211);
+  color: white;
+  border-radius: 25px;
+  border: 3px white solid;
+}
+
+.logout {
+  height: 8vh;
+  width: 20vw;
+  background-color: rgb(39, 142, 211);
+  color: white;
+  border-radius: 25px;
+}
+
+.homeLower {
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+hr {
+  color: white;
+  width: 80%;
+}
+
+h2 {
+  text-align: center;
+}
