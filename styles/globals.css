@@ -1,16 +1,60 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+  
+  .star-title{
+    /* height: ;
+    width: ; */
+    color:white;
+  
+  }
 
-* {
-  box-sizing: border-box;
-}
+  .login-input{
+height: 30vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border: 1px black solid;
+margin-top: 10vh;
+  }
+  
+  
+  .component{
+    background-color: rgb(39, 142, 211);
+    color:white;
+    height: 90vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  
+  }
+  
+
+  .password-email-input{
+    height: 8vh;
+    width: 20vw;
+    border-radius: 25px;
+  }
+    
+  .login-reg-button{
+    height: 8vh;
+    width: 20vw;
+    background-color: rgb(39, 142, 211);
+    color:white;
+    border-radius: 25px;
+  }
+  
+  .logout{
+    height: 8vh;
+    width: 20vw;
+    background-color: rgb(39, 142, 211);
+    color:white;
+    border-radius: 25px;
+  }
+
+  hr{
+    color: white;
+    width: 80%;
+  }
+  
+  
