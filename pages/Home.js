@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import styles from "../styles/Home.module.css";
 import Header from "./Header";
 
 export default function Home1(props) {
@@ -22,7 +21,6 @@ export default function Home1(props) {
     console.log(emailAr);
     let chop = emailAr.findIndex((char) => char == "@");
     let len = emailAr.length - chop;
-    console.log();
     emailAr.splice(chop, len, " !");
     let str = emailAr.join("");
     return str;

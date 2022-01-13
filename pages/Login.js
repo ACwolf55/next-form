@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import { Link } from "next/link";
 import Header from "./Header";
 
 export default function Home() {
