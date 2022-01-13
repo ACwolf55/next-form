@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Header from "./Header";
 
-export default function Home1(props) {
+export default function Landing() {
   const router = useRouter();
 
   //STATE

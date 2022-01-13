@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Header from "./Header";
 
-export default function Home() {
+export default function Login() {
   const router = useRouter();
 
   //STATE
@@ -32,7 +32,7 @@ export default function Home() {
     } else {
       sessionStorage.setItem("email", email);
       sessionStorage.setItem("password", password);
-      router.push("/Home");
+      router.push("/Landing");
     }
   };
 

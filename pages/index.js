@@ -1,7 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Login from "./Login";
 
-export default function Home1() {
+export default function Home() {
   return (
     <div className={styles.container}>
       <div className="page">
